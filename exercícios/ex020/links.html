@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    /*
+    #=id
+    . = class
+    : + pseudo-class
+    : : =pseudo-element
+    > = filho 
+    
+    */
+    <style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+color: aquamarine;
+text-decoration: none;
+}
+a:visited {
+color: red;
+
+}
+a:hover{
+color: black;
+text-decoration: underline;
+
+}    
+a:active {
+color: bisque;
+
+}
+a::after {
+content: '(link)';
+text-decoration: none;
+font-weight: normal;
+color: blueviolet;
+
+}
+
+</style>
+</head>
+<body>
+    <h1>organizando links</h1>
+    <ul>
+<li><a href="https://ge.globo.com/futebol/times/flamengo/noticia/2022/08/31/velez-x-flamengo-veja-onde-assistir-escalacoes-desfalques-e-arbitragem.ghtml" target="_blank">sla o que vou botar aqui</a></li>
+<li><a href="https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2022/08/31/athletico-bloqueia-o-palmeiras-quebra-invencibilidade-de-mais-de-tres-anos-e-se-aproxima-de-final-da-libertadores.ghtml">sla o que botar aqui tbm</a></li>
+<li><a href="https://ge.globo.com/futebol/futebol-internacional/noticia/2022/08/31/antony-casemiro-richarlison-europa-bate-recorde-em-contratacoes-de-brasileiros.ghtml">muito menos aqui</a></li>
+
+
+    </ul>
+    <p>podemos adcionar classes nas ancoras para deixalos mais bonitos</p>
+</body>
+</html>
